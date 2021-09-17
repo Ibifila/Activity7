@@ -482,14 +482,41 @@ header{
 	color: #adcce9;
 }
 
+@media (max-width: 575px){
+	.banner-content{
+		width: 340px;
+    	margin-top: 416px;
+	}
+}
+
 @media (max-width: 767px){
 	.banner{
-		    background-position: 81.49% 50%;
+		background-position: 81.49% 50%;
+	}
+	
+	.banner-content{
+		width: 502px;
+    	margin-top: 327px;
+	}
+	
+	.banner-content .text-area{
+		margin-left: 0 !important;
+    	margin-right: 0 !important;
+	}
+}
+
+@media (max-width: 991px){
+	.banner-content{
+		width: 482px;
 	}
 }
 
 @media (max-width: 1199px){
 	.banner{
-		    background-position: 34.74% 0%;
+		background-position: 34.74% 0%;
+	}
+	
+	.banner-content{
+		width: 577px;
 	}
 }
