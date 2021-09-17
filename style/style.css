@@ -485,7 +485,19 @@ header{
 @media (max-width: 575px){
 	.banner-content{
 		width: 340px;
-    	margin-top: 416px;
+    	padding-top: 416px;
+	}
+	
+	.banner-content .text-area{
+		min-height: 100px;
+	}
+	
+	.text-area h4{
+		font-size: 2.25rem;
+	}
+	
+	.text-area h1{
+		font-size: 3.625rem;
 	}
 }
 
@@ -496,18 +508,32 @@ header{
 	
 	.banner-content{
 		width: 502px;
-    	margin-top: 327px;
+    	padding-top: 327px;
 	}
 	
 	.banner-content .text-area{
 		margin-left: 0 !important;
     	margin-right: 0 !important;
+		border-left: 0 !important;
+    	border-right: 0 !important;
 	}
 }
 
 @media (max-width: 991px){
 	.banner-content{
 		width: 482px;
+	}
+	
+	.banner-content .text-area{
+		min-height: 216px;
+		padding: 30px 0 0;
+	}
+	
+	.text-area h4{
+		font-size: 3rem;
+	}
+	.text-area h1{
+		font-size: 5rem;
 	}
 }
 
@@ -518,5 +544,13 @@ header{
 	
 	.banner-content{
 		width: 577px;
+	}
+	
+	.text-area h4{
+		font-size: 3.625rem;
+	}
+	
+	.text-area h1{
+		font-size: 5.875rem;
 	}
 }
