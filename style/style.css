@@ -85,6 +85,12 @@ header{
 	color: white;
 }
 
+@media (max-width: 767px){
+	.banner{
+		    background-position: 81.49% 50%;
+	}
+}
+
 .banner-content{
 	padding: 216px 0 60px 0;
 	margin: 0 0 0 150px;
