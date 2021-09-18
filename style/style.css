@@ -559,14 +559,14 @@ header{
 
 @media (max-width: 768px){
 	.banner{
-		background-position: 75% 50%;
+		background-position: 50% 50%;
 /*		height: 100vh;*/
 	}
 	
 	.banner-content{
-		width: 100%;
+		width: 60%;
 		margin: 0 20px 0 30px;
-		padding-top: 327px;
+/*		padding-top: 327px;*/
 	}
 	
 	.text-area{
@@ -584,11 +584,11 @@ header{
 	
 	.banner hr {
 		margin-top: 20px;
-		width: 70%;
+		width: 90%;
 	}
 	
 	.icon-section{
-		visibility: hidden;
+		visibility: visible;
 	}
 	
 	
